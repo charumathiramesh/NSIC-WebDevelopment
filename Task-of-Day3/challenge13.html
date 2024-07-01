@@ -5,8 +5,9 @@
 </head>
 <body>
     <h1>Form Example</h1>
-    <form>
-        Username: <input type="text" name="username">
+    <form action="submit.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
         <input type="submit" value="Submit">
     </form>
 </body>
